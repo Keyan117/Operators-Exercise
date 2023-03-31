@@ -24,8 +24,8 @@
         
         //define a method - which performs some functionality. that can
         //be used over and over again
-        Public Static (double radius);
-        {
+        Public Static  (double radius);
+        
         //this is the scope of the method
         var area = Math.PI * Math.Pow (radius, 2);
 
