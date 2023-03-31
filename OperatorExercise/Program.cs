@@ -15,7 +15,7 @@
             Console.WriteLine("Please enter the radius of your circle:");
             var userInput = Console.ReadLine();
 
-            var radius = double.Parse(Console.ReadLine());
+            var radius = double.Parse(userInput);
 
             AreaOfCircle(radius);
 
@@ -24,7 +24,7 @@
         
         //define a method - which performs some functionality. that can
         //be used over and over again
-        Public Static  (double radius);
+        Public Static (double radius);
         
         //this is the scope of the method
         var area = Math.PI * Math.Pow (radius, 2);
